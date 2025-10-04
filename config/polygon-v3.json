@@ -1,9 +1,10 @@
 {
+  "_COMMENT_": "Ploutos.money",
   "network": "matic",
-  "AaveOracleAddress": "0xb023e699F5a33916Ea823A16485e259257cA8Bd1",
-  "AaveOracleStartBlock": 25825990,
-  "PoolAddressesProviderRegistryAddress": "0x770ef9f4fe897e59daCc474EF11238303F9552b6",
-  "PoolAddressesProviderRegistryStartBlock": 25824300,
-  "RewardsControllerAddress": "0x929EC64c34a17401F460460D4B9390518E5B473e",
-  "RewardsControllerStartBlock": 25970800
+  "AaveOracleAddress": "0xef56435131fCFcbcddf00EF4663D564cd1823980",
+  "AaveOracleStartBlock": 76593861,
+  "PoolAddressesProviderRegistryAddress": "0xA4753a119B2272047bef65850898eb603283Aae9",
+  "PoolAddressesProviderRegistryStartBlock": 76593693,
+  "RewardsControllerAddress": "0xe76Dafb29D816E850AC71348eC2e9297251D6D57",
+  "RewardsControllerStartBlock": 76593920
 }
