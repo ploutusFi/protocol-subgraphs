@@ -1,0 +1,10 @@
+{
+  "_COMMENT_": "Ploutos.money",
+  "network": "plasma-mainnet",
+  "AaveOracleAddress": "0x967B54FcDE9A665670aE9F7889f70F8e5Fb9A538",
+  "AaveOracleStartBlock": 1954559,
+  "PoolAddressesProviderRegistryAddress": "0xbae7d835F035d8241b45eeE459dB9AEb6BE78DCA",
+  "PoolAddressesProviderRegistryStartBlock": 1954298,
+  "RewardsControllerAddress": "0x1c5467B29457DDeE95F3B013a8bB79808E9d90bd",
+  "RewardsControllerStartBlock": 1954641
+}

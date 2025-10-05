@@ -12,6 +12,8 @@
     "ploutos-deploy:hosted:base-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=base env-cmd npm run prepare:subgraph && SLUG=ploutos-base env-cmd npm run subgraph:deploy",
     "ploutos-deploy:hosted:arbitrum-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=arbitrum env-cmd npm run prepare:subgraph && SLUG=ploutos-arbitrum env-cmd npm run subgraph:deploy",
     "ploutos-deploy:hosted:polygon-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=polygon env-cmd npm run prepare:subgraph && SLUG=ploutos-polygon env-cmd npm run subgraph:deploy",
+    "ploutos-deploy:hosted:katana-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=katana env-cmd npm run prepare:subgraph && SLUG=ploutos-katana env-cmd npm run subgraph:deploy",
+    "ploutos-deploy:hosted:plasma-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=plasma-mainnet env-cmd npm run prepare:subgraph && SLUG=ploutos-plasma env-cmd goldsky subgraph deploy ploutos-plasma/1.0.0 --path .",
     "deploy:hosted:mainnet": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=mainnet env-cmd npm run prepare:subgraph && SLUG=protocol-v2 env-cmd npm run subgraph:deploy",
     "deploy:hosted:mainnet-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=mainnet env-cmd npm run prepare:subgraph && SLUG=protocol-v3 env-cmd npm run subgraph:deploy",
     "deploy:hosted:mainnetlido-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=mainnetlido env-cmd npm run prepare:subgraph && SLUG=protocol-v3-lido env-cmd npm run subgraph:deploy",
@@ -66,6 +68,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@goldskycom/cli": "^13.0.2",
     "@graphprotocol/graph-cli": "^0.80.0",
     "@graphprotocol/graph-ts": "^0.31.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",

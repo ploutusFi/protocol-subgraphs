@@ -1,0 +1,10 @@
+{
+  "_COMMENT_": "Ploutos.money",
+  "network": "katana",
+  "AaveOracleAddress": "0x753f6e9cEd76C662962ABe1cE687cA034F8d7F23",
+  "AaveOracleStartBlock": 11529308,
+  "PoolAddressesProviderRegistryAddress": "0x6f795e75b8127Ce10410F1ab510Fd1e927da9F21",
+  "PoolAddressesProviderRegistryStartBlock": 11528991,
+  "RewardsControllerAddress": "0xE504F49CE43Fd632bCC881083189fD10F766A805",
+  "RewardsControllerStartBlock": 11529413
+}
